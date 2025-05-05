@@ -27,9 +27,15 @@ class ViewController: UIViewController {
         
     }
     
+    @IBOutlet weak var Name: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        Name.font = UIFont.italicSystemFont(ofSize: 14)
     }
 
 
